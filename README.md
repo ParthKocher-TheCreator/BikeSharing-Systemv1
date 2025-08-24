@@ -56,3 +56,5 @@ Call the add-bike function with a unique bikeId and the initialLocation.
 Perform Maintenance:
 
 After a bike has been flagged for maintenance, call the perform-maintenance function to reset its ride counter and make it available again.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b087b975-60dc-43d4-8c0d-f0d9374ce0a8" />
+
