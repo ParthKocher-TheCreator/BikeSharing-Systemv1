@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: bikesharing
+            expected-sender: ST2SBSP5XXWB2PV3GW5PS0VVW68Q5Y3X9R3EQFBJQ
+            cost: 15976541
+            path: "contracts\\bikesharing.clar"
+            anchor-block-only: true
+            clarity-version: 3
+      epoch: "3.2"
